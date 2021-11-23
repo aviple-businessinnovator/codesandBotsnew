@@ -1,0 +1,189 @@
+.intro-sect {
+   padding: 10px;
+   padding-bottom: 20px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   background: #FFFFFF;
+   border-bottom: 3px solid rgba(0, 0, 0, 0.25);
+}
+
+.intro-video {
+   /* width: 40%; */
+   width: 45%;
+   /* height: 50vh; */
+   height: 30vw;
+   /* height: 40vh; */
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   /* background-image: url('../images/video.png'); */
+}
+
+.intro-right {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.intro-right h1 {
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 42px;
+   line-height: 56px;
+   text-align: center;
+}
+
+.intro-right-h4 {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   text-align: center;
+}
+
+.intro-points {
+   margin-top: 10px;
+   display: flex;
+   margin-left: 20px;
+   flex-direction: column;
+}
+
+.intro-points p {
+   font-size: 18px;
+   font-size: 500;
+}
+
+.commingsoon-btn {
+   margin: 10px;
+   padding: 5px 10px;
+   color: white;
+   font-size: 20px;
+   cursor: pointer;
+   background: #592969;
+   border-radius: 8px;
+}
+
+@media (max-width:760px) {
+   .intro-sect {
+      padding: 5px;
+      padding-bottom: 20px;
+   }
+   .intro-video {
+      width: 40%;
+      /* height: 20vw; */
+      height: 30vw;
+   }
+   .intro-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .intro-right h1 {
+      font-size: 16px;
+      line-height: normal;
+   }
+   .intro-right-h4 {
+      font-size: 10px;
+   }
+   .intro-points {
+      width: 70%;
+      margin-left: 0px;
+      margin-top: 5px;
+   }
+   .intro-points p {
+      font-size: 10px;
+   }
+   .commingsoon-btn {
+      margin: 5px;
+      padding: 5px 5px;
+      font-weight: 600;
+      font-size: 12px;
+   }
+}
+
+@media screen and (max-width:280px) {
+   .intro-video {
+      height: 35vw;
+   }
+}
+
+@media (min-width:760px) and (max-width:1025px) {
+   .intro-video {
+      width: 40%;
+      height: 20vw;
+   }
+   .intro-right h1 {
+      font-size: 33px;
+   }
+   .desc-heading h1 {
+      font-size: 33px;
+   }
+   .desc-body h2 {
+      font-size: 30px;
+   }
+}
+
+@media screen and (min-width:2000px)and (max-width:2500px) {
+   .intro-points p {
+      font-size: 1.8rem;
+   }
+   .intro-right h1 {
+      font-size: 3.5rem;
+   }
+   .intro-right-h4 {
+      font-size: 2rem;
+   }
+   .intro-points, .commingsoon-btn {
+      font-size: 1.6rem;
+   }
+   .desc-heading h1 {
+      font-size: 3.5rem;
+   }
+   .rating p {
+      font-size: 2rem;
+   }
+   .desc-body h2 {
+      font-size: 2.9rem;
+   }
+   .desc-body p, .learningCard-para {
+      font-size: 1.7rem;
+   }
+   .learningCard-para {
+      font-size: 1.7rem;
+      font-weight: 600;
+   }
+   .intro-video {
+      height: 40vh;
+   }
+}
+
+@media screen and (min-width:2500px) {
+   .intro-right h1 {
+      font-size: 4rem;
+   }
+   .intro-right-h4 {
+      font-size: 3rem;
+   }
+   .intro-points {
+      margin-left: 0px;
+   }
+   .intro-points p, .commingsoon-btn {
+      font-size: 2.2rem;
+   }
+   .desc-heading h1 {
+      font-size: 4rem;
+   }
+   .rating p {
+      font-size: 3rem;
+   }
+   .desc-body h2 {
+      font-size: 3.4rem;
+   }
+   .desc-body p, .learningCard-para {
+      font-size: 2rem;
+      line-height: normal;
+   }
+}

@@ -1,0 +1,380 @@
+.landing_page_container {
+  padding: calc(10px + 1vw) calc(15px + 4vw);
+}
+
+.landing_page_container h1 {
+  font-size: calc(15px + 2.5vw);
+}
+.landing_page_container div,
+.landing_page_container li {
+  font-size: calc(11px + 0.9vw);
+}
+.landing_page_container div {
+  font-weight: 400;
+}
+/* mission section */
+
+.landing_page_mission_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: calc(20px + 6vw);
+}
+
+.landing_page_mission_section p {
+  padding: 0 calc(20px + 3vw);
+  width: calc(100px + 30vw);
+  font-weight: 400;
+}
+
+/* doubt section */
+
+.landing_page_doubt_section {
+  background: #eef0ff;
+  padding: calc(20px + 3vw);
+  display: flex;
+  border-radius: 5px;
+  margin-top: calc(10px + 2vw);
+}
+
+.landing_page_doubt_section_image img {
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px 4px 0px var(--grey);
+  width: calc(90px + 15vw);
+}
+
+.landing_page_doubt_section_text {
+  padding-left: calc(20px + 3vw);
+}
+
+.landing_page_doubt_section_text h1 {
+  font-weight: 500;
+}
+
+.landing_page_doubt_section_text p {
+  color: var(--light_black);
+  font-weight: 400;
+}
+
+/* benchmarking section */
+
+.landing_page_benchmarking_section {
+  display: flex;
+  flex-direction: row;
+  background: url(../../asserts/images/happy-woman-pointing-copy-space-whiteboard\ 2.png)
+    no-repeat;
+  position: relative;
+  background-size: 100vw;
+  margin-left: calc(-15px - 4vw);
+  margin-top: calc(40px + 6vw);
+}
+
+#column1 {
+  padding-left: 0px;
+}
+.landing_page_benchmarking_left_section {
+  padding-left: calc(50px + 17vw);
+}
+
+.landing_page_benchmarking_section th {
+  padding: calc(8px + 2vw);
+  font-size: calc(14px + 0.8vw);
+}
+
+.landing_page_benchmarking_section td {
+  padding: calc(4px + 1.5vw) calc(0px + 0vw) calc(4px + 1.5vw) calc(30px + 3vw);
+  font-size: calc(10px + 0.9vw);
+  font-weight: 400;
+}
+
+.landing_page_benchmarking_section td i {
+  font-size: calc(10px + 1.5vw);
+}
+
+.fa-check {
+  color: green;
+}
+
+.landing_page_benchmarking_section_cornerimage img {
+  width: 15%;
+  transform: rotate(-20deg);
+  position: absolute;
+  right: -28px;
+  top: -108px;
+}
+
+/* learning section */
+
+.landing_page_learning_section {
+  margin-top: calc(40px + 6vw);
+}
+
+.heading_section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.heading_section p {
+  background-image: url(../../asserts/images/Rectangle.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: calc(10px + 1vw) calc(10px + 2vw);
+  font-weight: 700;
+  color: #5a2969;
+}
+
+.images_section {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  grid-gap: calc(5px + 1vw);
+  height: calc(100px + 30vw);
+  text-align: center;
+}
+
+.images_row1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: calc(3px + 0.8vw);
+}
+
+.images_row1_column1 {
+  background-image: url(../../asserts/images/appndwebsite.svg);
+  background-size: cover;
+  padding-top: calc(10px + 1vw);
+  border-radius: 10px;
+  font-size: calc(10px + 2vw) !important;
+}
+
+.images_row1_column2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: calc(3px + 0.8vw);
+}
+
+.images_row1_column2_row1 {
+  background-image: url(../../asserts/images/games.svg);
+  background-size: cover;
+  padding-top: calc(15px + 5vw);
+  border-radius: 10px;
+  font-size: calc(10px + 2vw) !important;
+}
+
+.images_row1_column2_row2 {
+  background-image: url(../../asserts/images/3.svg);
+  background-size: cover;
+  padding-top: calc(15px + 5vw);
+  border-radius: 10px;
+  font-size: calc(10px + 2vw) !important;
+}
+
+.images_row1_column3 {
+  background-image: url(../../asserts/images/drone.svg);
+  background-size: cover;
+  color: white;
+  padding-top: calc(10px + 1vw);
+  border-radius: 10px;
+  font-size: calc(10px + 2vw) !important;
+}
+
+.images_row2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: calc(3px + 0.8vw);
+}
+
+.images_row2_column1 {
+  background-image: url(../../asserts/images/selfdrivercar.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: calc(10px + 1vw);
+  border-radius: 10px;
+  font-size: calc(10px + 2vw) !important;
+  /* color: white; */
+}
+
+.images_row2_column2 {
+  background-image: url(../../asserts/images/satelliteimage.svg);
+  background-size: cover;
+  color: white;
+  padding-top: calc(10px + 1vw);
+  border-radius: 10px;
+  font-size: calc(10px + 2vw) !important;
+}
+
+/* feature section */
+
+.landing_page_feature_section {
+  margin-top: calc(20px + 5vw);
+  margin-bottom: calc(20px + 5vw);
+  position: relative;
+}
+
+.left_section {
+  width: 60%;
+  margin-right: calc(10px + 1vw);
+}
+
+.left_section p {
+  color: #656565;
+
+  font-weight: 100;
+}
+
+.landing_page_feature_section_bottom li {
+  color: #1b2c87;
+  margin: calc(5px + 1vw) 0%;
+  font-weight: 500;
+}
+
+.landing_page_feature_section_bottom button {
+  background: #5a2969;
+  color: white;
+  margin-left: calc(10px + 2vw);
+  border: none;
+  padding: calc(2px + 0.5vw) calc(10px + 1vw);
+  font-size: calc(10px + 0.9vw);
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.left_section button:hover {
+  background: #764086;
+}
+
+.right_section img {
+  margin-top: calc(10px + 1vw);
+  height: calc(150px + 23vw);
+  width: calc(50px + 30vw);
+  position: absolute;
+  right: 0px;
+  bottom: -40px;
+}
+
+/* responsive-- media query section */
+
+@media (min-width: 1500px) {
+  /* benchmarking section */
+
+  .landing_page_benchmarking_section {
+    padding-left: calc(30px + 3vw);
+  }
+
+  .landing_page_benchmarking_section td {
+    font-size: calc(12px + 0.7vw);
+  }
+}
+
+@media (max-width: 680px) {
+  /* benchmarking section */
+  .landing_page_benchmarking_section {
+    background: none;
+    background-color: rgb(253, 250, 238);
+    margin-right: calc(-25px - 10vw);
+    width: 86vw;
+  }
+  .landing_page_benchmarking_left_section {
+    padding-left: calc(10px + 5vw);
+  }
+  .landing_page_benchmarking_section td {
+    padding-left: calc(42px + 1.5vw);
+    padding-right: 0%;
+    font-size: calc(10px + 0.8vw);
+  }
+  .landing_page_benchmarking_section_cornerimage img {
+    width: 25%;
+    right: -48px;
+    top: -61px;
+  }
+}
+
+@media (max-width: 600px) {
+  /* mission section */
+  .landing_page_mission_section {
+    display: block;
+  }
+  .landing_page_mission_section p {
+    padding: 0;
+  }
+  /* doubt section */
+  .landing_page_doubt_section {
+    display: block;
+    padding: calc(10px + 2vw) calc(20px + 3vw);
+  }
+  .landing_page_doubt_section_image img {
+    width: 100%;
+  }
+
+  /* learning section */
+  .heading_section {
+    display: block;
+    margin-top: calc(20px + 3vw);
+  }
+  .images_section {
+    display: flex;
+    flex-direction: column;
+    height: 590px;
+  }
+  .images_row1,
+  .images_row1_column1 {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+  }
+  .images_row1_column2 {
+    height: 1000px;
+  }
+  .images_row1_column3 {
+    height: 450px;
+  }
+  .images_row2_column1,
+  .images_row2_column2 {
+    height: 110px;
+  }
+
+  /* feature section */
+  .landing_page_feature_section {
+    margin-top: calc(20px + 2vw);
+  }
+  .left_section {
+    width: 100%;
+  }
+
+  .landing_page_feature_section_bottom button {
+    font-size: calc(12px + 1.1vw);
+  }
+}
+
+@media (max-width: 470px) {
+  /* feature section */
+
+  .right_section img {
+    width: calc(0px + 30vw);
+  }
+}
+
+@media (max-width: 400px) {
+  /* mission section */
+  .landing_page_mission_section img {
+    width: calc(100px + 10vw);
+  }
+
+  /* benchmarking section */
+  .landing_page_benchmarking_section {
+    width: 100vw;
+    overflow-x: scroll;
+  }
+  .landing_page_benchmarking_section img {
+    display: none;
+  }
+
+  /* feature section */
+  .left_section button {
+    font-size: 1rem;
+  }
+
+  .right_section img {
+    display: none;
+  }
+}

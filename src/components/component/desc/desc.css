@@ -1,0 +1,98 @@
+.desc {
+   width: 90%;
+   margin-top: 50px;
+   display: flex;
+   position: relative;
+   left: 23px;
+   flex-direction: column;
+   margin-bottom: 25px;
+}
+
+.desc-heading {
+   display: flex;
+   justify-content: space-between;
+}
+
+.desc-heading h1 {
+   text-transform: capitalize;
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: bold;
+   font-size: 40px;
+}
+
+.rating {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.rating p {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 30px;
+   margin-right: 10px;
+}
+
+.star {
+   display: flex;
+   flex-wrap: wrap;
+   color: rgb(255, 187, 0);
+}
+
+.desc-body {
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+}
+
+.desc-body h2 {
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: bold;
+   font-size: 32px;
+}
+
+.desc-body p {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   /* line-height: 20px; */
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+@media (max-width:760px) {
+   .desc {
+      width: 100%;
+      margin-top: 50px;
+      left: 3px;
+   }
+   .desc-heading h1 {
+      font-size: 25px;
+   }
+   .rating p {
+      /* font-size: 20px; */
+      margin-right: 5px;
+      font-size: 15px;
+   }
+   .css-i4bv87-MuiSvgIcon-root {
+      width: 20px !important;
+   }
+   .desc-body {
+      margin-top: 20px;
+   }
+   .desc-body h2 {
+      font-size: 20px;
+   }
+   .desc-body p {
+      font-size: 13px;
+      line-height: normal;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+   }
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+.what-build-section {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   margin-bottom: 20px;
+   margin-top: 30px;
+   left: 20px;
+}
+
+.what-build-section-text {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   /* height: 135px; */
+}
+
+.what-build-title {
+   font-family: Playfair Display;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 30px;
+   line-height: normal;
+   font-weight: 600;
+}
+
+.what-build-text-description {
+   word-wrap: break-word;
+   font-family: Poppins;
+   font-weight: 600;
+   /* font-size: 15px; */
+   font-size: 19px;
+   font-weight: 500;
+   margin-top: 10px;
+   letter-spacing: 0.1px;
+}
+
+.what-build-video {
+   background-image: url('../images/video.png');
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   border-radius: 10px;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   /* height: 409px; */
+   height: 40vw;
+   position: relative;
+   left: 5%;
+   width: 80%;
+   /* width: ; */
+   margin-top: 20px;
+   cursor: pointer;
+}
+
+.what-build-similar-courses {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.what-build-similar-courses h1 {
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 32px;
+   line-height: 57px;
+   margin-top: 40px;
+}
+
+.what-build-cards {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding-bottom: 50px;
+}
+
+@media (max-width:760px) {
+   .what-build-section-text {
+      height: max-content;
+   }
+   .what-build-section {
+      left: 4px;
+   }
+   .what-build-title, .what-build-similar-courses h1 {
+      /* font-size: 25px; */
+      font-size: 20px;
+      line-height: normal;
+      margin-bottom: 10px;
+   }
+   .what-build-video {
+      /* height: 40vw; */
+      height: 50vw;
+      left: 0px;
+      width: 100%;
+      /* height: 309px; */
+      margin-top: 20px;
+   }
+   .what-build-text-description {
+      padding-right: 20px;
+      font-size: 12px;
+   }
+}
+
+@media screen and (min-width:2000px) {
+   .what-build-title, .what-build-similar-courses h1 {
+      font-size: 50px;
+      line-height: normal;
+      margin-bottom: 10px;
+   }
+   .what-build-video {
+      height: 40vw;
+      /* height: 309px; */
+      margin-top: 20px;
+   }
+   .what-build-text-description {
+      font-size: 2rem;
+      letter-spacing: 1px;
+   }
+   .learningCard h1 {
+      font-size: 2.9rem;
+   }
+}
+
+@media screen and (min-width:1500px) and (max-width:2000px) {
+   .what-build-title, .what-build-similar-courses h1 {
+      font-size: 40px;
+      line-height: normal;
+      margin-bottom: 10px;
+   }
+   .what-build-video {
+      height: 60vh;
+      /* height: 309px; */
+      margin-top: 20px;
+   }
+   .what-build-text-description {
+      font-size: 22px;
+      letter-spacing: 1px;
+   }
+}

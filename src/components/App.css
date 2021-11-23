@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* temporary css */
+
+.app {
+  overflow-x: hidden;
+}

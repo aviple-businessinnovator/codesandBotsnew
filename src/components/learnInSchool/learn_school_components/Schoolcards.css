@@ -1,0 +1,89 @@
+.school_cards {
+  background: #ffffff;
+  box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  min-height: 36vw;
+  height: fit-content;
+  /* overflow-y: hidden; */
+  width: 18vw;
+  padding: 0.7vw 0.7vw;
+  margin: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.school_cards > img {
+  width: 18vw;
+  height: 18vw;
+  padding: 5px;
+}
+.school_cards > h3 {
+  font-size: 1.3vw;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.school_cards > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  margin: 5px 2px;
+  font-size: 1vw;
+}
+
+@media (max-width: 900px) {
+  .school_cards > img {
+    width: 22vw;
+    height: 22vw;
+  }
+  .school_cards > h3 {
+    font-size: 1.9vw;
+  }
+  .school_cards > p {
+    font-size: 1.5vw;
+  }
+  .school_cards {
+    width: 25vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .school_cards > img {
+    width: 28vw;
+    height: 28vw;
+  }
+  .school_cards > h3 {
+    font-size: 3vw;
+  }
+  .school_cards > p {
+    font-size: 2.5vw;
+  }
+  .school_cards {
+    width: 30vw;
+  }
+}
+@media (max-width: 550px) {
+  .school_cards > img {
+    width: 60vw;
+    height: 60vw;
+  }
+  .school_cards > h3 {
+    font-size: 4.5vw;
+  }
+  .school_cards > p {
+    font-size: 3.5vw;
+  }
+  .school_cards {
+    width: 70vw;
+    height: fit-content;
+  }
+}
+@media (max-width: 400px) {
+  .school_cards > h3 {
+    font-size: 5.5vw;
+  }
+  .school_cards > p {
+    font-size: 5vw;
+  }
+}
