@@ -8,6 +8,12 @@ const Course = (props) => {
   const handlecoursepage = (name) => {
     localStorage.setItem("course", name);
     let arr = ['robotics', 'coding', "rubik's cube", 'iot'];
+    if (name == "Internet of Things") {
+      name = "iot";
+    }
+    if (name == "Artificial Intelligence") {
+      name = "coding";
+    }
     arr.forEach(element => {
       if (element.toLowerCase() == name.toLowerCase()) {
         history.push(`/content-page/${name}`);
