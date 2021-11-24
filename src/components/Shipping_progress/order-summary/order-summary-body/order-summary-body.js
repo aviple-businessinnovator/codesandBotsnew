@@ -11,7 +11,7 @@ export default function OrderSummaryBody(props) {
   useEffect(() => {
     const fetchApi = async () => {
       let data = await Getcartdata();
-      console.log("Data", data);
+      // console.log("Data", data);
     };
     fetchApi();
     // console.log(Dailydata);
