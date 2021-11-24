@@ -27,7 +27,7 @@ export default function OrderSummaryCard({ setOrders, }) {
          setgetCarts(basket);
       setquantityUpdated(false);
 
-      console.log(getCarts);
+      // console.log(getCarts);
    }, [basket?.length, quantityUpdated]);
 
    // *****************update quantity of product**************
@@ -45,7 +45,7 @@ export default function OrderSummaryCard({ setOrders, }) {
                localStorage.getItem('Token')
          },
       }).then((res) => {
-         console.log('upadte +++++++++');
+         // console.log('upadte +++++++++');
          const fetchgetdata = async () => {
             let items = await Getcartdata();
             dispatch({
@@ -57,7 +57,7 @@ export default function OrderSummaryCard({ setOrders, }) {
          fetchgetdata();
          // history.push('/')
       }).catch((err) => {
-         console.log(err);
+         // console.log(err);
       })
    };
 
@@ -97,7 +97,7 @@ export default function OrderSummaryCard({ setOrders, }) {
          setquantityUpdated(true)
          // console.log(res);
       }).catch((err) => {
-         console.log(err);
+         // console.log(err);
       })
    };
 
@@ -123,4 +123,3 @@ export default function OrderSummaryCard({ setOrders, }) {
       </div>
    )
 }
-
