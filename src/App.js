@@ -51,22 +51,28 @@ function App() {
             {/* <Homepage /> */}
             <Home />
           </Route>
-          {/* <Route path="/content-page/:param" exact>
+          <Route path="/content-page/:param" exact>
             <ContentPage />
-          </Route> */}
+          </Route>
+          <Route path="/learninschool" exact>
+            <>
+              <Header />
+              <LearnInSchool />
+            </>
+          </Route>
           {/* <PrivateRoute path="/home" component={props => {
             return <Homepage />
           }} /> */}
-
+          {/* 
           <PrivateRoute path="/content-page/:param" component={props => {
             return <ContentPage />
-          }} />
-          <PrivateRoute path="/learninschool" component={props => {
+          }} /> */}
+          {/* <PrivateRoute path="/learninschool" component={props => {
             return <>
               <Header />
               <LearnInSchool />
             </>
-          }} />
+          }} /> */}
           <Route render={() => <Redirect to={{ pathname: "/" }} />} />
         </Switch>
       </Router>
