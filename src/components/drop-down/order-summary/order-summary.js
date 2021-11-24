@@ -37,7 +37,8 @@ export default function OrderSummary({ closeHandler }) {
          <div className="order-summary-footer">
             <div className="left-left">
                <p className=" u">SubTotal</p>
-               <div className="totalprice">$ {getBasketTotal(basket)}</div>
+               <div className="totalprice"> <i className="fas fa-rupee-sign new_price">{" " + getBasketTotal(basket)}/-</i>
+               </div>
                <div className="lupper-text">Inclusive all taxes and shiping across India</div>
             </div>
             <div className="right-right">
