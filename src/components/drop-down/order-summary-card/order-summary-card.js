@@ -113,7 +113,7 @@ export default function OrderSummaryCard({ setOrders, }) {
                         <p id="quantity" className="quantity-value2">{quantity}</p>
                         <div onClick={() => { onClickHandler(_id, quantity) }}>+</div>
                      </div>
-                     <p className="price2">&#8377;{product.price * quantity}/-</p>
+                     <p className="price2"> <i className="fas fa-rupee-sign new_price">{product.price * quantity}/-</i></p>
                   </div>
                   <div className="remove-button2" onClick={() => { onRemoveHandler(_id, quantity); }}>Remove</div>
                </div>
@@ -123,3 +123,4 @@ export default function OrderSummaryCard({ setOrders, }) {
       </div>
    )
 }
+
