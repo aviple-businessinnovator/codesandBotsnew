@@ -41,7 +41,7 @@ function Login() {
     const submitlogin = (e) => {
         e.preventDefault();
         const data = validationInfo(email, password);
-        console.log(data);
+        // console.log(data);
         seterr(data);
         if (Object.keys(data).length === 0) {
             const newuser = { email: email, password: password }
@@ -49,10 +49,10 @@ function Login() {
                 let token = res.data.token;
                 localStorage.setItem('Token', "Bearer " + token);
                 setloginstatus(false);
-                console.log(res);
+                // console.log(res);
                 history.push('/content-page/robotics');
             }).catch((err) => {
-                console.log("SAS", err.data);
+                // console.log("SAS", err.data);
                 // console.log('message',err.data.message);
                 setloginsuccess("Invalid Email or Password!");
                 setloginstatus(true);
@@ -75,9 +75,9 @@ function Login() {
                 localStorage.setItem("Savedphone", phone);
                 setsignupstatus(false)
                 setclick(false);
-                console.log(res);
+                // console.log(res);
             }).catch((err) => {
-                console.log(err);
+                // console.log(err);
                 setsignupsuccess("Error! Sorry Something Went Wrong");
                 setsignupstatus(true)
             })
