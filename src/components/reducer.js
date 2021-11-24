@@ -28,7 +28,7 @@ export const IsExist = (basket, id) => {
             return flg;
         }
     });
-    console.log("flag", flg);
+    // console.log("flag", flg);
     return flg;
 }
 export const getSize = (basket) => {
@@ -39,7 +39,7 @@ export const reducer = (state, action) => {
     switch (action.type) {
         case 'ADD_ALL':
             let it = action.item;
-            console.log("s", it);
+            // console.log("s", it);
             return {
                 ...state,
                 basket: it
@@ -83,7 +83,7 @@ export const reducer = (state, action) => {
                     element.quantity = element.quantity + 1;
                 }
             });
-            console.log("inside reducer", state.basket);
+            // console.log("inside reducer", state.basket);
 
             return {
                 ...state,
