@@ -13,10 +13,7 @@ export default function ProgramSection() {
 
     const handleCoursepage = (name) => {
       localStorage.setItem("course", name);
-      history.push(
-        `${localStorage.getItem("Token") ? `/content-page/${name}` : "/sign-in"
-        }`
-      );
+      history.push(`/content-page/${name}`);
     };
 
     return (
