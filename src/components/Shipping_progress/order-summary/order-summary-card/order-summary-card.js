@@ -16,7 +16,7 @@ export default function OrderSummaryCard({
   useEffect(() => {
     const fetchgetdata = async () => {
       let items = await Getcartdata();
-      console.log("itemss>", items);
+      // console.log("itemss>", items);
       dispatch({
         type: 'ADD_ALL',
         item: items,
@@ -28,7 +28,7 @@ export default function OrderSummaryCard({
     }
     else
       setgetCarts(basket);
-    console.log(getCarts);
+    // console.log(getCarts);
 
   }, [basket.length]);
 
@@ -47,7 +47,7 @@ export default function OrderSummaryCard({
           localStorage.getItem('Token')
       },
     }).then((res) => {
-      console.log('upadte +++++++++');
+      // console.log('upadte +++++++++');
       const fetchgetdata = async () => {
         let items = await Getcartdata();
         dispatch({
@@ -58,7 +58,7 @@ export default function OrderSummaryCard({
       fetchgetdata();
       // history.push('/')
     }).catch((err) => {
-      console.log(err);
+      // console.log(err);
     })
   };
 
@@ -97,7 +97,7 @@ export default function OrderSummaryCard({
       fetchgetdata();
       // console.log(res);
     }).catch((err) => {
-      console.log(err);
+      // console.log(err);
     })
   };
 
@@ -115,7 +115,7 @@ export default function OrderSummaryCard({
           basket.map(({ _id, product, quantity }) =>
           // (
           {
-            console.log(product);
+            // console.log(product);
             return <div className="order-item" key={product.id}>
               <img
                 className="order-item-image"
