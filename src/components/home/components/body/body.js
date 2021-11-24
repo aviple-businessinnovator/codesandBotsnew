@@ -23,13 +23,7 @@ export default function Body() {
           <div
             className="big-btn"
             onClick={() => {
-              history.push(
-                `${
-                  localStorage.getItem("Token")
-                    ? "/content-page/robotics"
-                    : "/sign-in"
-                }`
-              );
+              history.push("/content-page/robotics");
             }}
           >
             Explore
