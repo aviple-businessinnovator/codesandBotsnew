@@ -39,7 +39,7 @@ export default function OrderSummaryCard({ setOrders, }) {
       quantity = quantity + 1;
       // console.log(getCarts);
       axios({
-         method: 'put', url: `http://localhost:3000/updatecart/${id}/${quantity}`,
+         method: 'put', url: `https://codesandbotsapi.herokuapp.com/updatecart/${id}/${quantity}`,
          headers: {
             Authorization:
                localStorage.getItem('Token')
@@ -73,11 +73,11 @@ export default function OrderSummaryCard({ setOrders, }) {
       let url = '', method = 'put';
       if (quantity == 1) {
          method = 'delete'
-         url = `http://localhost:3000/deletecart/${id}`
+         url = `https://codesandbotsapi.herokuapp.com/deletecart/${id}`
       }
       else {
          quantity = quantity - 1;
-         url = `http://localhost:3000/updatecart/${id}/${quantity}`;
+         url = `https://codesandbotsapi.herokuapp.com/updatecart/${id}/${quantity}`;
       }
       axios({
          method: method, url: url,

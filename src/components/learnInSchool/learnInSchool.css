@@ -4,6 +4,9 @@
 button:hover {
   cursor: pointer;
 }
+.main_container p {
+  font-weight: 300 !important;
+}
 .right_arrow {
   position: relative;
   top: 7vw;

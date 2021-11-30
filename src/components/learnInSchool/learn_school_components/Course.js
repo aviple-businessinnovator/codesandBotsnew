@@ -7,14 +7,14 @@ const Course = (props) => {
 
   const handlecoursepage = (name) => {
     localStorage.setItem("course", name);
-    let arr = ['robotics', 'coding', "rubik's cube", 'iot'];
+    let arr = ["robotics", "coding", "rubik's cube", "iot"];
     if (name == "Internet of Things") {
       name = "iot";
     }
     if (name == "Artificial Intelligence") {
       name = "coding";
     }
-    arr.forEach(element => {
+    arr.forEach((element) => {
       if (element.toLowerCase() == name.toLowerCase()) {
         history.push(`/content-page/${name}`);
       }
@@ -22,7 +22,7 @@ const Course = (props) => {
   };
   return (
     <div className="course_card">
-      <h3 className={props.color}>{props.title}</h3>
+      <h3 className="course_title">{props.title}</h3>
       <img src={props.image} alt="loading" />
       <button onClick={() => handlecoursepage(props.title)}>Explore</button>
     </div>

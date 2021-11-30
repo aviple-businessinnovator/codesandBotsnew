@@ -15,6 +15,9 @@ import AI from "./learn_school_img/block.JPG";
 import coding from "./learn_school_img/laptop.jpg";
 import Schoolcards from "./learn_school_components/Schoolcards";
 import zeroinvestment from "./learn_school_img/zero_investment.jpg";
+import futristic from "./learn_school_img/futristic_technologies.JPG";
+import quality_promise from "./learn_school_img/quality_promise.JPG";
+import zero_investment from "./learn_school_img/zero_investment_plan_new.JPG";
 import teacher from "./learn_school_img/teacher.jpg";
 import course from "./learn_school_img/course.jpg";
 import inovation from "./learn_school_img/inovation.jpg";
@@ -153,17 +156,17 @@ export const LearnInSchool = () => {
           <h1>We work in collaboration with schools</h1>
           <div className="collaboration">
             <Schoolcards
-              image={zeroinvestment}
+              image={futristic}
               para="Our talented Engineers will teach your students how to code and how to make almost anything smart. We have Best Curriculum and which follows less theoretical and more practical approach."
               title="Now teach futuristic technologies to your students with us"
             />
             <Schoolcards
-              image={zeroinvestment}
+              image={zero_investment}
               para="Schools doesn't have to care about a thing. We take care of everthing from providing highly talented professors to all the tools and kits needed to build amazing projects during the course."
               title="Zero Investment Plan"
             />
             <Schoolcards
-              image={zeroinvestment}
+              image={quality_promise}
               para="We highly take care of Quality Control. We hire the Highly Talented Teachers Who have not just theoretical but Hands on experience on each of the technologies.We Provide world class study material to build the students future ready."
               title="Quality Our Promise"
             />

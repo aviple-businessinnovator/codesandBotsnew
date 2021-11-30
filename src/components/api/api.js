@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:3000";
+const url = "https://codesandbotsapi.herokuapp.com";
 export const Fetchdata = async () => {
   try {
     const { data } = await axios.get(`${url}/products`);
@@ -41,4 +41,4 @@ export const Getcartdata = async () => {
   }
 };
 
-export const axioss = axios.create({ baseURL: "http://localhost:3000" });
+export const axioss = axios.create({ baseURL: "https://codesandbotsapi.herokuapp.com" });

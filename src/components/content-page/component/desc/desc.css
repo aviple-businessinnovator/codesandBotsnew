@@ -57,7 +57,7 @@
 .desc-body p {
    font-family: 'Open Sans';
    font-style: normal;
-   font-weight: 600;
+   font-weight: 500;
    font-size: 18px;
    /* line-height: 20px; */
    margin-top: 10px;
@@ -70,27 +70,32 @@
       margin-top: 50px;
       left: 3px;
    }
+
    .desc-heading h1 {
       font-size: 25px;
    }
+
    .rating p {
       /* font-size: 20px; */
       margin-right: 5px;
       font-size: 15px;
    }
+
    .css-i4bv87-MuiSvgIcon-root {
       width: 20px !important;
    }
+
    .desc-body {
       margin-top: 20px;
    }
+
    .desc-body h2 {
       font-size: 20px;
    }
+
    .desc-body p {
       font-size: 13px;
       line-height: normal;
-      font-weight: 600;
       letter-spacing: 0.3px;
       margin-top: 5px;
       margin-bottom: 5px;

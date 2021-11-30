@@ -33,7 +33,10 @@
   position: relative;
   top: 1vw;
 }
-.AI {
+.course_title {
+  color: black;
+}
+/* .AI {
   color: #00e8f0;
 }
 .Coding {
@@ -44,7 +47,7 @@
 }
 .iot {
   color: rgb(255, 52, 1);
-}
+} */
 @media (max-width: 900px) {
   .course_card {
     width: 20vw;
