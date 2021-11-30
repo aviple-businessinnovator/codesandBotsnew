@@ -127,32 +127,38 @@
       width: 100%;
       height: 80vh;
    }
+
    .body-text>h1 {
       font-size: 7rem;
       line-height: normal;
    }
+
    .body-text p {
       width: 80%;
       font-size: 2.6rem;
       line-height: normal;
    }
+
    .arrow {
       width: 230px;
       height: 200px;
       top: 0px;
       left: 30px;
    }
+
    .big-btn {
       padding: 10px 10px;
       width: fit-content;
       font-size: 3rem;
    }
+
    .child-image {
       width: 40%;
       top: 0px;
       position: relative;
       left: 5vw;
    }
+
    .triangle1 {
       position: relative;
       top: 40%;
@@ -161,6 +167,7 @@
       height: 30px;
       background-image: url('../../asserts/traingle1.svg');
    }
+
    .triangle2 {
       position: relative;
       width: 26px;
@@ -169,6 +176,7 @@
       height: 30px;
       background-image: url('../../asserts/traingle2.svg');
    }
+
    .rectangle {
       width: 13px;
       height: 8px;
@@ -176,6 +184,7 @@
       left: 10%;
       background-image: url('../../asserts/rectangle.svg');
    }
+
    .triangle3 {
       width: 26px;
       height: 30px;
@@ -184,6 +193,7 @@
       left: 16%;
       background-image: url('../../asserts/traingle3.svg');
    }
+
    .triangle4 {
       width: 26px;
       position: relative;
@@ -192,6 +202,7 @@
       height: 30px;
       background-image: url('../../asserts/traingle4.svg');
    }
+
    .arrow1 {
       width: 15vw;
       height: 20vh;
@@ -206,31 +217,37 @@
       width: 100%;
       height: 80vh;
    }
+
    .body-text>h1 {
       font-size: 5rem;
       line-height: normal;
    }
+
    .body-text p {
       width: 80%;
       font-size: 1.6rem;
       line-height: normal;
    }
+
    .arrow {
       width: 130px;
       height: 100px;
       top: 0px;
       left: 30px;
    }
+
    .big-btn {
       font-weight: 600;
       font-size: 1.6rem;
    }
+
    .child-image {
       width: 40%;
       top: 0px;
       position: relative;
       left: 5vw;
    }
+
    .triangle1 {
       position: relative;
       top: 40%;
@@ -239,6 +256,7 @@
       height: 30px;
       background-image: url('../../asserts/traingle1.svg');
    }
+
    .triangle2 {
       position: relative;
       width: 26px;
@@ -247,6 +265,7 @@
       height: 30px;
       background-image: url('../../asserts/traingle2.svg');
    }
+
    .rectangle {
       width: 13px;
       height: 8px;
@@ -254,6 +273,7 @@
       left: 10%;
       background-image: url('../../asserts/rectangle.svg');
    }
+
    .triangle3 {
       width: 26px;
       height: 30px;
@@ -262,6 +282,7 @@
       left: 16%;
       background-image: url('../../asserts/traingle3.svg');
    }
+
    .triangle4 {
       width: 26px;
       position: relative;
@@ -270,6 +291,7 @@
       height: 30px;
       background-image: url('../../asserts/traingle4.svg');
    }
+
    .arrow1 {
       width: 15vw;
       height: 20vh;
@@ -287,30 +309,36 @@
       height: 50vh;
       background-size: 100% 60%;
    }
+
    .body-text {
       left: 1.5rem;
       top: 1rem;
       width: 50rem;
    }
+
    .body-text-h1 {
       font-size: 18px;
    }
+
    .body-text>h1 {
       font-size: 18px;
       line-height: normal;
    }
+
    .body-text p {
       width: 80%;
       margin-top: 10px;
       font-size: 12px;
       line-height: 18px;
    }
+
    .arrow {
       width: 50px;
       height: 80px;
       top: -10px;
       left: 10px;
    }
+
    .big-btn {
       margin-top: 20px;
       padding: 5px 10px;
@@ -318,41 +346,48 @@
       width: fit-content;
       border-radius: 5px;
    }
+
    .child-image {
       width: 40rem;
       top: -4rem;
       left: 0vw;
       margin-top: 4rem;
    }
+
    .triangle1 {
       top: 30%;
       width: 26px;
       left: 10%;
       height: 30px;
    }
+
    .triangle2 {
       width: 26px;
       top: 30%;
       right: 0%;
       height: 30px;
    }
+
    .rectangle {
       width: 13px;
       height: 8px;
       left: 3%;
    }
+
    .triangle3 {
       width: 26px;
       height: 30px;
       top: 40%;
       left: 1%;
    }
+
    .triangle4 {
       width: 26px;
       top: 45%;
       left: 3%;
       height: 30px;
    }
+
    .arrow1 {
       width: 30vw;
       height: 30vh;
@@ -366,15 +401,18 @@
    .body {
       height: 50vh;
    }
+
    .body-text {
       left: 2rem;
       top: 3rem;
       width: 40%;
    }
+
    .body-text>h1 {
       font-size: 30px;
       line-height: normal;
    }
+
    .body-text p {
       width: 70%;
       margin-top: 20px;
@@ -382,12 +420,14 @@
       font-size: 12px;
       line-height: normal;
    }
+
    .arrow {
       width: 90px;
       height: 60px;
       top: 0px;
       left: 10px;
    }
+
    .big-btn {
       margin-top: 20px;
       padding: 7px 16px;
@@ -395,11 +435,13 @@
       font-size: 13px;
       border-radius: 5px;
    }
+
    .child-image {
       width: 40%;
       top: 0px;
       left: 5vw;
    }
+
    .triangle1 {
       top: 40%;
       width: 20px;
@@ -407,29 +449,34 @@
       left: 10%;
       height: 20px;
    }
+
    .triangle2 {
       width: 20px;
       top: 50%;
       right: -6%;
       height: 20px;
    }
+
    .rectangle {
       width: 13px;
       height: 8px;
       left: 10%;
    }
+
    .triangle3 {
       width: 20px;
       height: 20px;
       top: 60%;
       left: 16%;
    }
+
    .triangle4 {
       width: 20px;
       top: 80%;
       left: 16%;
       height: 20px;
    }
+
    .arrow1 {
       width: 15vw;
       height: 10vh;
