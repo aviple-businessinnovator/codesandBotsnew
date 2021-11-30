@@ -59,6 +59,14 @@ export default function Header({ dropdown, setdropdown }) {
           >
             <h3>Home</h3>
           </NavLink>
+          {localStorage.getItem("Token") ? <NavLink
+            onClick={() => window.location.reload()}
+            to={"/e-commerce"}
+            className="header_link header_none"
+          >
+            <h3>Shop</h3>
+          </NavLink>
+            : null}
           <NavLink to="/learninschool" className="header_link header_none">
             <h3>Learn In School</h3>
           </NavLink>

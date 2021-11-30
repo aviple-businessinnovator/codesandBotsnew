@@ -117,6 +117,7 @@
 
 .heading_section p {
   background-image: url(../../asserts/images/Rectangle.png);
+  background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   padding: calc(10px + 1vw) calc(10px + 2vw);
@@ -140,6 +141,7 @@
 
 .images_row1_column1 {
   background-image: url(../../asserts/images/appndwebsite.svg);
+  background-position: center;
   background-size: cover;
   padding-top: calc(10px + 1vw);
   border-radius: 10px;
@@ -154,6 +156,7 @@
 
 .images_row1_column2_row1 {
   background-image: url(../../asserts/images/games.svg);
+  background-position: center;
   background-size: cover;
   padding-top: calc(15px + 5vw);
   border-radius: 10px;
@@ -162,6 +165,7 @@
 
 .images_row1_column2_row2 {
   background-image: url(../../asserts/images/3.svg);
+  background-position: center;
   background-size: cover;
   padding-top: calc(15px + 5vw);
   border-radius: 10px;
@@ -170,6 +174,7 @@
 
 .images_row1_column3 {
   background-image: url(../../asserts/images/drone.svg);
+  background-position: center;
   background-size: cover;
   color: white;
   padding-top: calc(10px + 1vw);
@@ -185,6 +190,7 @@
 
 .images_row2_column1 {
   background-image: url(../../asserts/images/selfdrivercar.svg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: calc(10px + 1vw);
@@ -195,6 +201,7 @@
 
 .images_row2_column2 {
   background-image: url(../../asserts/images/satelliteimage.svg);
+  background-position: center;
   background-size: cover;
   color: white;
   padding-top: calc(10px + 1vw);
@@ -217,7 +224,6 @@
 
 .left_section p {
   color: #656565;
-
   font-weight: 100;
 }
 
@@ -236,7 +242,7 @@
   font-size: calc(10px + 0.9vw);
   cursor: pointer;
   border-radius: 5px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .left_section button:hover {
@@ -314,19 +320,19 @@
   .images_section {
     display: flex;
     flex-direction: column;
-    height: 590px;
+    height: 700px;
   }
   .images_row1,
   .images_row1_column1 {
     display: flex;
     flex-direction: column;
-    height: 450px;
+    height: 550px;
   }
   .images_row1_column2 {
     height: 1000px;
   }
   .images_row1_column3 {
-    height: 450px;
+    height: 550px;
   }
   .images_row2_column1,
   .images_row2_column2 {

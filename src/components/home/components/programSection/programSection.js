@@ -58,25 +58,25 @@ export default function ProgramSection() {
       <div className="ps-lower">
         {LowerCard(
           "Robotics",
-          "Our programs are designed to develop children and bring out their talents for amazing future.",
+          "We take students from zero knowledge and we help the students to build a deep understanding of real world robotics.",
           robotic,
           0
         )}
         {LowerCard(
           "Coding",
-          "Our programs are designed to develop children and bring out their talents for amazing future.",
+          "When children learn to code, it helps them to develop essential skills such as problem solving, logical and critical thinking.",
           coding,
           0
         )}
         {LowerCard(
           "IOT",
-          "Our programs are designed to develop children and bring out their talents for amazing future.",
+          "Kids today can learn fast faster than ever before iot can create information about the connected objects,  analyse it, and make decisions.",
           iot,
           0
         )}
         {LowerCard(
           "Rubik's Cubes",
-          "Our programs are designed to develop children and bring out their talents for amazing future.",
+          "Rubik's cubes can be learned by kids. It also helps them in improving their reflexes, keeping the mind active and becoming problem solvers.",
           rubic,
           1
         )}

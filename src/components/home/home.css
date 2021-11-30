@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@400;500&display=swap');
+
 .image {
    background-size: 100% 100%;
    background-repeat: no-repeat;
@@ -39,6 +40,7 @@
    .heading h3 {
       font-size: 2rem;
    }
+
    .heading {
       background-image: 100% 100%;
    }
@@ -52,6 +54,7 @@
       overflow-y: hidden;
       margin-bottom: 10px;
    }
+
    .heading h3 {
       font-weight: bold;
       font-size: 18px;
@@ -68,6 +71,7 @@
       height: 70px;
       margin-bottom: 10px;
    }
+
    .heading h3 {
       font-size: 25px;
       padding: 10px 15px;
@@ -94,35 +98,40 @@ p {
 }
 
 @media (min-width:1500px) {
-  
+
    p {
       font-size: calc(9px + 0.8vw);
    }
-   div,li {
+
+   /* div, li {
       font-size: calc(13px + 0.7vw);
-   }
+   } */
 }
 
 @media (max-width:700px) {
    h1, h1 span {
       font-size: calc(18px + 2vw);
    }
+
    p {
       font-size: calc(10px + 0.7vw);
    }
-   div,li {
+
+   /* div, li {
       font-size: calc(12px + 0.7vw);
-   }
+   } */
 }
 
 @media (max-width:375px) {
    h1, h1 span {
       font-size: calc(20px + 2vw);
    }
+
    p {
       font-size: calc(9px + 0.7vw);
    }
-   div, li {
+
+   /* div, li {
       font-size: calc(13px + 0.7vw);
-   }
+   } */
 }
