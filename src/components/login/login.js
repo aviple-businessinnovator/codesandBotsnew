@@ -106,7 +106,7 @@ function Login() {
                     {/* left-part signup section  */}
                     <div className="left-signup">
                         <h1>WELCOME TO</h1>
-                        <h1>CODE AND BOTS</h1>
+                        <h1>CODESANDBOTS</h1>
                         <div className="image">
                             <img src={image} alt="" />
                         </div>
@@ -228,7 +228,7 @@ function Login() {
                                         <i className="fab fa-twitter"></i>
                                     </div>
                                 </div> */}
-                                <p className="already-acc">already have an account?</p>
+                                <p className="already-acc" onClick={handleclick}>Create An Account</p>
                                 <h3 onClick={handleclick}>SIGN UP</h3>
                             </form>
                         </div>

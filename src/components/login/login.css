@@ -1,4 +1,3 @@
-
 .-container {
     display: flex;
     height: 100vh;
@@ -92,7 +91,7 @@
     height: 100%;
     top: 0;
     right: 0;
-    background: linear-gradient(45deg, #4e00ab, #4e00ab);
+    background: linear-gradient(45deg, #FCE4BD, #FCE4BD);
     border-radius: 50% 0 0 50%;
     transform: scaleY(1.1);
     z-index: -1;
@@ -108,7 +107,7 @@
     width: 58%;
     letter-spacing: 6px;
     font-size: 23px;
-    color: #fff;
+    color: black;
     text-align: center;
 }
 
@@ -185,6 +184,7 @@
 .already-acc {
     text-align: center;
     cursor: pointer;
+    color: black;
     font-weight: bolder;
 }
 
@@ -207,7 +207,8 @@ h4 {
 
 .form span {
     background-color: #fff;
-    padding: 10px;
+    /* padding: 10px; */
+    padding: 0px 10px;
 }
 
 /*LEFT SIDE SIGN IN PAGE */
@@ -273,7 +274,7 @@ h4 {
     width: 58%;
     letter-spacing: 6px;
     font-size: 23px;
-    color: #fff;
+    color: black;
     text-align: center;
 }
 
@@ -297,100 +298,124 @@ h4 {
         letter-spacing: 4px;
         padding: 4px;
     }
+
     .form .btn {
         width: 55%;
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
     .eyestyle {
         font-size: 30px;
     }
+
     .-container {
         flex-direction: column;
         height: auto;
     }
+
     .left {
         width: 100%;
         margin: 10px 0;
     }
+
     .right {
         width: 100%;
         min-height: 900px;
     }
+
     .right::before {
         border-radius: 50% 50% 0 0;
         transform: scaleX(1.3);
     }
+
     /* signup top-part  */
     .left-signup h1 {
         font-size: 52px;
     }
+
     .left-signup .image {
         margin: 40px 0 20px;
         height: 400px;
     }
+
     .image img {
         width: 65%
     }
+
     .left-signup h3 {
         font-size: 30px;
         margin-bottom: 30px;
     }
+
     /* signup form */
     .right-signup h1 {
         width: 100%;
         margin: 75px 0 30px;
         font-size: 30px;
     }
+
     .form-panel {
         right: 15%;
         width: 70%;
     }
+
     .form input {
         font-size: 30px;
     }
+
     .btn {
         padding: 6px 20px;
         font-size: 22px;
     }
+
     .form span {
         font-size: 23px;
     }
+
     .icon {
         padding: 20px;
     }
+
     .already-acc {
         font-size: 25px;
     }
+
     .form h3 {
         font-size: 30PX;
     }
+
     /* signin top  */
     .onclick .left {
         height: 688px;
     }
+
     .onclick .left-signin {
         width: 100%;
     }
+
     .onclick .left-heading {
         position: relative;
         left: 0;
         width: 100%;
         font-size: 55px;
     }
+
     .onclick.image {
         height: 500px
     }
+
     .onclick .image img {
         height: 500px;
         width: 65%;
     }
+
     .right-signin h1 {
         width: 100%;
         margin: 75px 0 30px;
         font-size: 30px;
     }
+
     .form h5 {
         font-size: 25px;
     }
@@ -400,42 +425,53 @@ h4 {
     h4 {
         margin: 20px 0 20px 0;
     }
+
     .left-signup h1 {
         font-size: 30px;
     }
+
     .left-signup .image {
         margin: 30px 0 20px;
         height: 300px;
     }
+
     .image img {
         width: 60%;
     }
+
     .left-signup h3 {
         font-size: 20px;
         margin-bottom: 20px;
     }
+
     .onclick .left {
         height: 500px;
     }
+
     .onclick .left-heading {
         font-size: 30px;
     }
+
     .onclick .image {
         height: 350px;
     }
+
     .onclick .image img {
         margin: 20px 0 20px;
         height: 300px;
         width: 60%;
     }
+
     .right {
         min-height: 560px;
     }
+
     .right::before {
         bottom: 0;
         top: auto;
         height: 82%;
     }
+
     .right-signup h1 {
         position: absolute;
         top: 15px;
@@ -446,43 +482,52 @@ h4 {
         font-weight: bolder;
         letter-spacing: normal;
     }
+
     .form-panel {
         right: 10%;
         width: 80%;
         box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
     }
+
     .form {
         justify-content: space-evenly;
         padding-top: 25px;
     }
+
     .form input {
         font-size: 16px;
         margin: 10px 0 0;
     }
+
     .btn {
         padding: 6px 20px;
         font-size: 16px;
         width: 60%;
         margin: 10px auto;
     }
+
     .form span {
         font-size: 15px;
     }
+
     .icons {
         height: 70px;
     }
+
     .icon {
         padding: 20px;
     }
+
     .already-acc {
         position: absolute;
         left: 0;
         bottom: -42px;
-        color: rgb(247 219 252);
+        color: black;
         font-size: 18px;
         text-align: center;
         width: 100%;
     }
+
     .form h3 {
         position: absolute;
         bottom: -80px;
@@ -490,8 +535,9 @@ h4 {
         left: 0;
         width: 100%;
         font-size: 25px;
-        color: white;
+        color: #9f1dd7;
     }
+
     .right-signin h1 {
         position: absolute;
         top: 40px;
@@ -502,10 +548,12 @@ h4 {
         font-weight: bolder;
         letter-spacing: normal;
     }
+
     .onclick .form {
         justify-content: space-around;
         padding: 60px 25px 15px;
     }
+
     .form h5 {
         font-size: 15px;
     }
@@ -515,100 +563,127 @@ h4 {
 
 
 @media screen and (min-width:1600px) {
-    .left-signup>h1{
+    .left-signup>h1 {
         font-size: 50px;
     }
-    .left-signup h3{
+
+    .left-signup h3 {
         font-size: 30px;
     }
+
     .left-signup .image {
         height: 70vh;
         margin: 30px 0px;
     }
-    .onclick .left-heading{
+
+    .onclick .left-heading {
         font-size: 55px;
     }
-    .left-signin h1{
+
+    .left-signin h1 {
         margin: 40px auto;
     }
-    .right-signup h1{
+
+    .right-signup h1 {
         font-size: 35px;
     }
-    .form input{
+
+    .form input {
         font-size: 23px;
     }
-    .eyestyle{
+
+    .eyestyle {
         font-size: 30px;
         padding: 0;
     }
+
     .form .btn {
         padding: 8px 20px;
         font-size: 25px;
     }
-    .form span{
+
+    .form span {
         font-size: 25px;
     }
-    .form h3{
+
+    .form h3 {
         font-size: 30px;
     }
-    .already-acc{
+
+    .already-acc {
         font-size: 25px;
     }
-    .form h5{
+
+    .form h5 {
         font-size: 25px;
     }
-    .right-signin h1{
+
+    .right-signin h1 {
         margin: 30px 64px 30px auto;
         font-size: 35px;
     }
 }
+
 @media screen and (min-width:2200px) {
-    .left-signup>h1{
+    .left-signup>h1 {
         font-size: 55px;
     }
-    .left-signup h3{
+
+    .left-signup h3 {
         font-size: 35px;
     }
+
     .left-signup .image {
         height: 70vh;
         margin: 30px 0px;
     }
-    .onclick .left-heading{
+
+    .onclick .left-heading {
         font-size: 70px;
         letter-spacing: 6px;
     }
-    .left-signin h1{
+
+    .left-signin h1 {
         margin: 40px auto;
     }
-    .right-signup h1{
+
+    .right-signup h1 {
         font-size: 40px;
         margin-top: 25px;
         margin-bottom: 20px;
     }
-    .form input{
+
+    .form input {
         font-size: 27px;
     }
-    .eyestyle{
+
+    .eyestyle {
         font-size: 30px;
         padding: 0;
     }
+
     .form .btn {
         padding: 8px 20px;
         font-size: 35px;
     }
-    .form span{
+
+    .form span {
         font-size: 25px;
     }
-    .form h3{
+
+    .form h3 {
         font-size: 35px;
     }
-    .already-acc{
+
+    .already-acc {
         font-size: 30px;
     }
-    .form h5{
+
+    .form h5 {
         font-size: 25px;
     }
-    .right-signin h1{
+
+    .right-signin h1 {
         margin: 30px 64px 30px auto;
         font-size: 35px;
     }
