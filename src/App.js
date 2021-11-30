@@ -9,7 +9,6 @@ import Fetchdata from "./components/api/api";
 import { ShippingPage } from "./components/Shipping_progress/shippingPage/ShippingPage";
 import { Navbar } from "./components/Shipping_progress/Navbar/Navbar";
 import Home from "./components/home/home";
-import Homepage from "./components/HomePage/App";
 import ReactGA from "react-ga";
 import ContentPage from "./components/content-page/App";
 import Header from "./components/content-page/component/header/header";
@@ -63,10 +62,10 @@ function App() {
           {/* <PrivateRoute path="/home" component={props => {
             return <Homepage />
           }} /> */}
-          {/* 
+
           <PrivateRoute path="/content-page/:param" component={props => {
             return <ContentPage />
-          }} /> */}
+          }} />
           {/* <PrivateRoute path="/learninschool" component={props => {
             return <>
               <Header />
