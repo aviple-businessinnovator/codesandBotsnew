@@ -5,13 +5,16 @@
 .landing_page_container h1 {
   font-size: calc(15px + 2.5vw);
 }
+
 .landing_page_container div,
 .landing_page_container li {
   font-size: calc(11px + 0.9vw);
 }
+
 .landing_page_container div {
   font-weight: 400;
 }
+
 /* mission section */
 
 .landing_page_mission_section {
@@ -61,8 +64,7 @@
 .landing_page_benchmarking_section {
   display: flex;
   flex-direction: row;
-  background: url(../../asserts/images/happy-woman-pointing-copy-space-whiteboard\ 2.png)
-    no-repeat;
+  background: url(../../asserts/images/happy-woman-pointing-copy-space-whiteboard\ 2.png) no-repeat;
   position: relative;
   background-size: 100vw;
   margin-left: calc(-15px - 4vw);
@@ -72,6 +74,7 @@
 #column1 {
   padding-left: 0px;
 }
+
 .landing_page_benchmarking_left_section {
   padding-left: calc(50px + 17vw);
 }
@@ -120,6 +123,7 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  background-position-x: left;
   padding: calc(10px + 1vw) calc(10px + 2vw);
   font-weight: 700;
   color: #5a2969;
@@ -299,6 +303,7 @@
 }
 
 @media (max-width: 680px) {
+
   /* benchmarking section */
   .landing_page_benchmarking_section {
     background: none;
@@ -306,14 +311,17 @@
     margin-right: calc(-25px - 10vw);
     width: 86vw;
   }
+
   .landing_page_benchmarking_left_section {
     padding-left: calc(10px + 5vw);
   }
+
   .landing_page_benchmarking_section td {
     padding-left: calc(42px + 1.5vw);
     padding-right: 0%;
     font-size: calc(10px + 0.8vw);
   }
+
   .landing_page_benchmarking_section_cornerimage img {
     width: 25%;
     right: -48px;
@@ -322,18 +330,22 @@
 }
 
 @media (max-width: 600px) {
+
   /* mission section */
   .landing_page_mission_section {
     display: block;
   }
+
   .landing_page_mission_section p {
     padding: 0;
   }
+
   /* doubt section */
   .landing_page_doubt_section {
     display: block;
     padding: calc(10px + 2vw) calc(20px + 3vw);
   }
+
   .landing_page_doubt_section_image img {
     width: 100%;
   }
@@ -343,33 +355,41 @@
     display: block;
     margin-top: calc(20px + 3vw);
   }
+
   .images_section {
     height: fit-content;
   }
+
   .images_row1 {
     flex-direction: column;
     width: 100%;
   }
+
   .images_row1_column1 {
     width: 100%;
     height: 150px;
   }
+
   .images_row1_column2 {
     width: 100%;
   }
+
   .images_row1_column2_row1,
   .images_row1_column2_row2 {
     width: 100%;
     height: 150px;
   }
+
   .images_row1_column3 {
     height: 150px;
     width: 100%;
   }
+
   .images_row2 {
     flex-direction: column;
     width: 100%;
   }
+
   .images_row2_column1,
   .images_row2_column2 {
     height: 150px;
@@ -381,6 +401,7 @@
   .landing_page_feature_section {
     margin-top: calc(20px + 2vw);
   }
+
   .left_section {
     width: 100%;
   }
@@ -399,6 +420,7 @@
 }
 
 @media (max-width: 400px) {
+
   /* mission section */
   .landing_page_mission_section img {
     width: calc(100px + 10vw);
@@ -409,6 +431,7 @@
     width: 100vw;
     overflow-x: scroll;
   }
+
   .landing_page_benchmarking_section img {
     display: none;
   }
